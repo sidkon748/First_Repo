@@ -52,3 +52,14 @@ console.log(`After dividing by 2: $${accountBalance}`);
 // Perform a modulus operation
 accountBalance %= 75; // Getting the remainder after dividing by 75
 console.log(`After modulus with 75: $${accountBalance}`);
+
+// Declare variables for employee scores
+let employeeScore1 = 5; // Score for Employee One
+let employeeScore2 = 5; // Score for Employee Two
+
+// Compare employee scores using various comparison operators
+console.log('employeeScore1 > employeeScore2:', employeeScore1 > employeeScore2); // Checks if employeeScore1 is greater than employeeScore2
+console.log('employeeScore1 < employeeScore2:', employeeScore1 < employeeScore2); // Checks if employeeScore1 is less than employeeScore2
+console.log('employeeScore1 >= employeeScore2:', employeeScore1 >= employeeScore2); // Checks if employeeScore1 is greater than or equal to employeeScore2
+console.log('employeeScore1 <= employeeScore2:', employeeScore1 <= employeeScore2); // Checks if employeeScore1 is less than or equal to employeeScore2
+console.log('employeeScore1 === employeeScore2:', employeeScore1 === employeeScore2); // Checks if employeeScore1 is equal to employeeScore2
